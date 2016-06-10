@@ -44,7 +44,7 @@ def area_plot(values, label="", title="", xlabel="", ylabel="", xlim=[], ylim=[]
         mpl.ylim(ylim)
     else:
         # default ylim is 110% of the maximum
-        mpl.ylim([np.sum([min(value) for value in values]) * 1.1, np.sum([max(value) for value in values]) * 1.1])
+        mpl.ylim([np.minimum(np.sum([min(value) for value in values]) * 1.1, 0), np.maximum(np.sum([max(value) for value in values] * 1.1, 0))])
 
     if xlim:
         mpl.xlim(xlim)
