@@ -18,4 +18,4 @@ Collection of Visualization Scripts for Ipython Notebooks
 
 ## Examples
 
-IPython Notebook with examples (coming soon)
+[http://nbviewer.jupyter.org/github/martinzellner/ipyviz/blob/master/examples/ipyviz%20Examples.ipynb#](IPython Notebook with examples)
