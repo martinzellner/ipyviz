@@ -3,6 +3,9 @@ from networkx.readwrite import json_graph
 import json
 from IPython.display import HTML
 from string import Template
+import os
+import sys
+from IPython.display import display_javascript, Javascript
 
 
 def graph_plot(adjacency_matrix):
@@ -23,8 +26,9 @@ def nx_graph_plot(nx_graph):
     """
     data = json_graph.node_link_data(nx_graph)
     s = json.dumps(data)
-    with open("./graph.html") as f:
-        html_content = f.read()
+    d = os.path.dirname(sys.modules['ipyplots'].__file__)
+
+    html_content = open(os.path.join(d, 'graph.html'), 'r').read()
 
     template = Template(html_content)
     return HTML(template.substitute(json=s))

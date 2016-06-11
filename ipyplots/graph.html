@@ -14,12 +14,11 @@
 
 </style>
 <body>
-<script src="http://d3js.org/d3.v3.min.js"></script>
 <svg id="graph" height=500 width=960></svg>
-<script>
-  var data = $json;
+<script type="text/javascript">
+  var graph = $json;
 </script>
-<script>
+<script type="text/javascript">
 
 var width = 960,
     height = 500;
@@ -34,9 +33,6 @@ var force = d3.layout.force()
 var svg = d3.select("#graph")
     .attr("width", width)
     .attr("height", height);
-
-d3.json(data, function(error, graph) {
-  if (error) throw error;
 
   force
       .nodes(graph.nodes)
@@ -83,7 +79,6 @@ d3.json(data, function(error, graph) {
     node.attr("cx", function(d) { return d.x; })
         .attr("cy", function(d) { return d.y; });
   });
-});
 
 </script>
 
