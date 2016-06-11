@@ -8,4 +8,7 @@ setup(name='ipyviz',
       packages=['ipyplots',],
       requires=['numpy',
                 'seaborn',
-                'matplotlib',])
+                'matplotlib',
+                'networkx',
+                'IPython',
+                ])
