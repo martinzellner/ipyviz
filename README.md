@@ -10,11 +10,10 @@ Collection of Visualization Scripts for Ipython Notebooks
 ![](examples/area_plot.png)
 
 ### Maps
-(coming soon)
+See Example Notebook
 
 ### Network Graphs
-(coming soon)
-
+See Example Notebook
 
 ## Examples
 
