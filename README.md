@@ -1,5 +1,5 @@
 # ipyviz
-Collection of Visualization Scripts for Ipython Notebooks
+Collection of Visualization Scripts for IPython Notebooks
 
 [![Documentation Status](https://readthedocs.org/projects/ipyviz/badge/?version=latest)](http://ipyviz.readthedocs.io/en/latest/?badge=latest)
 
