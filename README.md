@@ -12,7 +12,7 @@ Collection of Visualization Scripts for IPython Notebooks
   * [Networkx](http://networkx.github.io/)
   * [IPython](https://ipython.org/notebook.html)
 
-## Install
+## Installation
 
 (assuming your Python 3 pip is called `pip3`)
 
