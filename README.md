@@ -24,9 +24,9 @@ See Example Notebook
 
 ## Requirements
   * Python 3
-  * Numpy
-  * Matplotlib
-  * Seaborn
-  * Folium
-  * Networkx
-  * IPython
+  * [Numpy](http://www.numpy.org)
+  * [Matplotlib](http://matplotlib.org/)
+  * [Seaborn](http://stanford.edu/~mwaskom/software/seaborn-dev/index.html)
+  * [Folium](https://github.com/python-visualization/folium)
+  * [Networkx](http://networkx.github.io/)
+  * [IPython](https://ipython.org/notebook.html)
