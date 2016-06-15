@@ -6,6 +6,8 @@
 Welcome to ipyviz's documentation!
 ==================================
 
+`ipyviz` is a visualisation library for IPython Notebooks.
+
 Contents:
 
 .. toctree::
