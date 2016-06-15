@@ -1,6 +1,9 @@
 # ipyviz
 Collection of Visualization Scripts for Ipython Notebooks
 
+[![Documentation Status](https://readthedocs.org/projects/ipyviz/badge/?version=latest)](http://ipyviz.readthedocs.io/en/latest/?badge=latest)
+
+
 ## Plotting Routines
 
 ### Line Plot
