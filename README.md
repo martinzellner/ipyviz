@@ -3,6 +3,21 @@ Collection of Visualization Scripts for Ipython Notebooks
 
 [![Documentation Status](https://readthedocs.org/projects/ipyviz/badge/?version=latest)](http://ipyviz.readthedocs.io/en/latest/?badge=latest)
 
+## Requirements
+  * [Python 3](https://www.python.org)
+  * [Numpy](http://www.numpy.org)
+  * [Matplotlib](http://matplotlib.org/)
+  * [Seaborn](http://stanford.edu/~mwaskom/software/seaborn-dev/index.html)
+  * [Folium](https://github.com/python-visualization/folium)
+  * [Networkx](http://networkx.github.io/)
+  * [IPython](https://ipython.org/notebook.html)
+
+## Install
+
+(assuming your Python 3 pip is called `pip3`)
+
+     pip3 install -r requirements.txt
+     python3 setup.py install
 
 ## Plotting Routines
 
@@ -22,11 +37,3 @@ See Example Notebook
 
 [IPython Notebook with examples](http://nbviewer.jupyter.org/github/martinzellner/ipyviz/blob/master/examples/ipyviz%20Examples.ipynb#)
 
-## Requirements
-  * [Python 3](https://www.python.org)
-  * [Numpy](http://www.numpy.org)
-  * [Matplotlib](http://matplotlib.org/)
-  * [Seaborn](http://stanford.edu/~mwaskom/software/seaborn-dev/index.html)
-  * [Folium](https://github.com/python-visualization/folium)
-  * [Networkx](http://networkx.github.io/)
-  * [IPython](https://ipython.org/notebook.html)
