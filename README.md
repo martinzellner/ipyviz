@@ -21,3 +21,12 @@ See Example Notebook
 ## Examples
 
 [IPython Notebook with examples](http://nbviewer.jupyter.org/github/martinzellner/ipyviz/blob/master/examples/ipyviz%20Examples.ipynb#)
+
+## Requirements
+  * Python 3
+  * Numpy
+  * Matplotlib
+  * Seaborn
+  * Folium
+  * Networkx
+  * IPython
