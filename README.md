@@ -23,7 +23,7 @@ See Example Notebook
 [IPython Notebook with examples](http://nbviewer.jupyter.org/github/martinzellner/ipyviz/blob/master/examples/ipyviz%20Examples.ipynb#)
 
 ## Requirements
-  * Python 3
+  * [Python 3](https://www.python.org)
   * [Numpy](http://www.numpy.org)
   * [Matplotlib](http://matplotlib.org/)
   * [Seaborn](http://stanford.edu/~mwaskom/software/seaborn-dev/index.html)
