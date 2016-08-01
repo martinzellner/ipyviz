@@ -36,5 +36,5 @@ def nx_graph_plot(nx_graph: networkx.classes.Graph):
 
     html_content = open(os.path.join(d, 'graph.html'), 'r').read()
 
-    template = Template(html_content)
-    return HTML(template.substitute(json=s))
+    final_string = html_content.replace("$json", s)
+    return HTML(final_string)
